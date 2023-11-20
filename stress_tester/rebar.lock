@@ -1,0 +1,15 @@
+{"1.2.0",
+[{<<"ibrowse">>,{pkg,<<"ibrowse">>,<<"4.4.1">>},0},
+ {<<"jsx">>,{pkg,<<"jsx">>,<<"3.1.0">>},0},
+ {<<"uuid">>,
+  {git,"https://github.com/avtobiff/erlang-uuid.git",
+       {ref,"cb02a2039a9b29dd2eef0446039c9c6e164df9ef"}},
+  0}]}.
+[
+{pkg_hash,[
+ {<<"ibrowse">>, <<"2B7D0637B0F8B9B4182DE4BD0F2E826A4DA2C9B04898B6E15659BA921A8D6EC2">>},
+ {<<"jsx">>, <<"D12516BAA0BB23A59BB35DCCAF02A1BD08243FCBB9EFE24F2D9D056CCFF71268">>}]},
+{pkg_hash_ext,[
+ {<<"ibrowse">>, <<"1E86C591DBC6D270632625534986BECA30813AF7CE784E742E5FC38E342C29B3">>},
+ {<<"jsx">>, <<"0C5CC8FDC11B53CC25CF65AC6705AD39E54ECC56D1C22E4ADB8F5A53FB9427F3">>}]}
+].
