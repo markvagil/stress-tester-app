@@ -23,7 +23,7 @@ build_mark_delivereds(Package_UUIDs,Count) ->
 		|| _ <- lists:seq(1,Count)]).
 
 build_package_location_requests(Package_UUIDs,Count)->
-	lists:flatten([[#{uuid => UUID}
+	lists:flatten([[#{uuid => list_to_binary(UUID)}
 								|| UUID <- Package_UUIDs] || _ <- lists:seq(1,Count)]).
 
 

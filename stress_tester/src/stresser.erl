@@ -47,10 +47,10 @@ build_and_spawn_all(Domain,Tester_name,Package_count,Http_info)->
 
 
 
-	Package_updates = data:build_package_updates(Package_uuids,1),
-	Location_updates = data:build_location_updates(Package_uuids,1),
-	Package_location_requests = data:build_package_location_requests(Package_uuids,1),
-	Delivered_requests = data:build_mark_delivereds(Package_uuids,1),
+	Package_updates = data:build_package_updates(Package_uuids,1000),
+	Location_updates = data:build_location_updates(Package_uuids,1000),
+	Package_location_requests = data:build_package_location_requests(Package_uuids,1000),
+	Delivered_requests = data:build_mark_delivereds(Package_uuids,1000),
 	
 	%start the tracker
 	start_tracker(),
